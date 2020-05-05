@@ -56,5 +56,4 @@ public class SushimanMatematico {
 		}
 		System.out.println("end");
 	}
-
 }

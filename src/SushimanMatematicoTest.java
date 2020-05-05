@@ -19,5 +19,10 @@ public class SushimanMatematicoTest extends TestCase {
   }
   
 	public void testGetSuperPrimos() {
+    ArrayList<Integer> expectedNumbers = SushimanMatematico.getSuperPrimos(8);
+
+    assertTrue(expectedNumbers.contains(23399339));
+    assertTrue(expectedNumbers.contains(37337999));
+    assertTrue(expectedNumbers.contains(73939133));
 	}
 }

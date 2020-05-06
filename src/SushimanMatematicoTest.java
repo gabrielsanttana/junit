@@ -9,7 +9,6 @@ public class SushimanMatematicoTest extends TestCase {
 		assertTrue(SushimanMatematico.ehPrimo(71));
 		assertTrue(SushimanMatematico.ehPrimo(233));
 		assertFalse(SushimanMatematico.ehPrimo(12));
-
 	}
 
 	public void testGetPrimos() {
@@ -19,7 +18,6 @@ public class SushimanMatematicoTest extends TestCase {
 		assertTrue(expectedNumbers.contains(239));
 		assertFalse(expectedNumbers.contains(16));
 		assertFalse(expectedNumbers.contains(8));
-
 	}
 
 	public void testGetSuperPrimos() {
@@ -31,6 +29,5 @@ public class SushimanMatematicoTest extends TestCase {
 		assertFalse(expectedNumbers.contains(0));
 		assertFalse(expectedNumbers.contains(4));
 		assertFalse(expectedNumbers.contains(8));
-
 	}
 }
